@@ -1,2 +1,2 @@
 # QRifyMe
-Backend for URL shortener, QR generator, and other URL functionalities
+App for URL shortener, QR generator, and other URL functionalities
