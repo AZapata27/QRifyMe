@@ -1,4 +1,4 @@
-package urlshortener;
+package url;
 
 import jakarta.enterprise.context.ApplicationScoped;
 

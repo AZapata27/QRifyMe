@@ -1,4 +1,4 @@
-package urlshortener;
+package url;
 
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
