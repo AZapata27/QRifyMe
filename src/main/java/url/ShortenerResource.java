@@ -2,6 +2,8 @@ package url;
 
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
+import url.model.UrlRequest;
+import url.model.UrlResponse;
 
 @Path("/shortener")
 public class ShortenerResource {

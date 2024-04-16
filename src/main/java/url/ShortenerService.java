@@ -1,6 +1,8 @@
 package url;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import url.model.UrlRequest;
+import url.model.UrlResponse;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

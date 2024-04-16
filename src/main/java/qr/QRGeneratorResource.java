@@ -2,6 +2,8 @@ package qr;
 
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
+import qr.model.QRRequest;
+import qr.model.QRResponse;
 
 @Path("/qr-generator")
 public class QRGeneratorResource {
@@ -13,7 +15,7 @@ public class QRGeneratorResource {
     }
 
     @POST
-    public QRResponse generateQRCode(String input) {
-        return qrGeneratorService.generateQRCode(input);
+    public QRResponse generateQRCode(QRRequest qrRequest) {
+        return qrGeneratorService.generateQRCode(qrRequest);
     }
 }

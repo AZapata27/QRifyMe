@@ -1,4 +1,4 @@
-package url;
+package url.model;
 
 public record UrlResponse(String shortUrl) {
 }
